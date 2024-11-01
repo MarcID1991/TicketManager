@@ -1,0 +1,11 @@
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.csproj.AssemblyReference.cache
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.csproj.SuggestedBindingRedirects.cache
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.Properties.Resources.resources
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.csproj.GenerateResource.cache
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.csproj.CoreCompileInputs.cache
+H:\My projects\TicketManager\TicketManager\bin\Debug\TicketManager.exe.config
+H:\My projects\TicketManager\TicketManager\bin\Debug\TicketManager.exe
+H:\My projects\TicketManager\TicketManager\bin\Debug\TicketManager.pdb
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.Form1.resources
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.exe
+H:\My projects\TicketManager\TicketManager\obj\Debug\TicketManager.pdb
