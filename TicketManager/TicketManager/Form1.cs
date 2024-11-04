@@ -79,6 +79,7 @@ namespace TicketManager
                     selectedTicket.EditCount++;
                     selectedTicket.DetailedExplanation += $"\nEDIT {selectedTicket.EditCount}: {newDetailedExplanation}";
                     selectedTicket.Status = Cmb_Status.SelectedItem.ToString();
+                    Txt_DetailedExplanation.Clear();
                     DisplayTickets();
                     MessageBox.Show("Ticket updated successfully.");
                 }
@@ -165,4 +166,3 @@ namespace TicketManager
         }
     }
 }
-
