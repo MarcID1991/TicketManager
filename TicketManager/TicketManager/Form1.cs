@@ -7,6 +7,7 @@ namespace TicketManager
     public partial class Form1 : Form
     {
         private List<Ticket> tickets = new List<Ticket>();
+        private string currentPrefix = "AAA";
         private int ticketCounter = 0;
 
         public Form1()
@@ -105,7 +106,32 @@ namespace TicketManager
         private string GenerateTicketId()
         {
             ticketCounter++;
-            return $"AA{ticketCounter:D3}";
+
+            if (ticketCounter > 999)
+            {
+                ticketCounter = 1;
+                currentPrefix = IncrementPrefix(currentPrefix);
+            }
+
+            return $"{currentPrefix}{ticketCounter:D3}";
+        }
+
+        private string IncrementPrefix(string prefix)
+        {
+            char[] chars = prefix.ToCharArray();
+            for (int i = chars.Length - 1; i >= 0; i--)
+            {
+                if (chars[i] < 'Z')
+                {
+                    chars[i]++;
+                    break;
+                }
+                else
+                {
+                    chars[i] = 'A';
+                }
+            }
+            return new string(chars);
         }
 
         private void DisplayTickets()
